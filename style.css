@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #0D192B;
+}
+
+.main-container {
+    width: 350px;
+    margin-inline: auto;
+    padding: 24px;
+    border-radius: 15px;
+    background-color: #14253D;
+}
+
+.equilibrium {
+    height: 302px;
+    width: 302px;
+    margin-bottom: 24px;
+    border-radius: 9px;
+}
+
+.title {
+    font-size: 22px;
+    color: #FFF;
+    margin-bottom: 16px;
+}
+
+.sub-title {
+    font-size: 18px;
+    color: #2F415B;
+    margin-bottom: 24px;
+}
+
+.time__quantity,
+.eth__quantity,
+.clock__symbol,
+.eth__symbol,
+.days-left,
+.eth {
+    display: inline-block;
+}
+
+.time__quantity {
+    color: #8BACDA;
+}
+
+.eth__quantity {
+    color: #00FFF7;
+}
+
+.eth {
+    width: 50%;
+}
+
+.days-left {
+    width: 50%;
+    margin-left: -4px;
+    text-align: right;
+}
